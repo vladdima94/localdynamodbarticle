@@ -19,7 +19,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class UserDAODynamoDBTest {
+public class UserRepoDynamoDBTest {
 
     private static final String USERS_TABLE_NAME = "beta-us-west-2-users";
     private static AmazonDynamoDB ddb;
